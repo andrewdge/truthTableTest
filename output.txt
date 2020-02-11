@@ -1,0 +1,11 @@
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline $p$ & $q$ & $r$ & $\sim p$ & $\sim q$ & $(\sim p \wedge q$ & $(q \wedge r)$ & $((\sim p \wedge q) \wedge (q \wedge r))$ & $((\sim p \wedge q) \wedge(q \wedge r)) \wedge \sim q$  \\
+\hline T&T&T&F&F&F&T&F&F\\
+\hline T&T&F&F&F&F&F&F&F\\
+\hline T&F&T&F&T&F&F&F&F\\
+\hline T&F&F&F&T&F&F&F&F\\
+\hline F&T&T&T&F&T&T&T&F\\
+\hline F&T&F&T&F&T&F&F&F\\
+\hline F&F&T&T&T&F&F&F&F\\
+\hline F&F&F&T&T&F&F&F&F\\
+\end{tabular}
